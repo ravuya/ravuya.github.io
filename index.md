@@ -1,2 +1,0 @@
-## Ravuya Games
-Coming soon!
