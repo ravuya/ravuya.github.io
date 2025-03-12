@@ -4,6 +4,12 @@
 
 layout: default
 ---
+{% comment %}
+FAQ? Links to the old archive page?
+{% endcomment %}
+
+I am in the process of migrating some of the content from [the old Ravuya Games website](https://web.archive.org/web/20241114190354/http://ravuya.com/) to this new, much cheaper, one. Please check back soon to see more posts and journals!
+
 <div class="posts">
     {% for post in site.posts %}
     <div class="post">
