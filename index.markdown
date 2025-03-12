@@ -4,4 +4,15 @@
 
 layout: default
 ---
-Blah blah blah
+<div class="posts">
+    {% for post in site.posts %}
+    <div class="post">
+        <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+            <div class="post-excerpt">
+                {{ post.excerpt }}
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
